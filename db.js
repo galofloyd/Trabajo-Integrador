@@ -1,0 +1,37 @@
+const productosLibreria = [
+    {
+        id: 1,
+        nombre: "Cuaderno Rivadavia",
+        descripcion: "Cuaderno tapa dura, rayado con tapa a color",
+        precio: 1200,
+        imagen: "./multimedia/cuadernoRivadavia.webp",
+        categoria:"Libreria",
+        destacado: true,
+    },
+    {
+        id: 2,
+        nombre: "Birome Bic",
+        descripcion: "birome para escribir azul o negro, trazo grueso bic",
+        precio: 300,
+        imagen: "./multimedia/biromeBic.webp",
+        categoria:"Libreria",
+        destacado: false,
+    },
+    {
+        id: 3,
+        nombre: "Cuaderno Rivadavia",
+        descripcion: "Cuaderno tapa dura, rayado con tapa a color",
+        precio: 1200,
+        imagen: "./multimedia/biromeBic.webp",
+        categoria:"Libreria",
+        destacado: true,
+    },
+    {   id: 4,
+        nombre: "Cuaderno Rivadavia",
+        descripcion: "Cuaderno tapa dura, rayado con tapa a color",
+        precio: 1200,
+        imagen: "./multimedia/biromeBic.webp",
+        categoria:"Libreria",
+        destacado: true,
+    }
+];
