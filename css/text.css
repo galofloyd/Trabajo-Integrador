@@ -7,18 +7,19 @@ body{
 }
 /* Estilos de la cabecera*/
 header  {
-    background-color: #fff;
+    background-color: #F8F9FA;
     color:#193452;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:90px;
+    height:100px;
     width: 100%;
 }
 img{
     height: 90px;
     width: 90px;
+    background-color: #F8F9FA;
 }
 h1{
     letter-spacing: 10px;
@@ -132,4 +133,7 @@ footer p{
     border: #193452;
     border-radius: 3%;
     padding: 12px;
+}
+.container-fluid{
+    background-color: #F8F9FA;
 }
