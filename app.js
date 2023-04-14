@@ -1,21 +1,4 @@
-
 const arrayCarrito = []
-//esto es una manera de hacerlo, pero pega en el doom
-// const containerProducts = document.querySelector("#containerProducts")
-
-// productosLibreria.forEach(function(elemento){
-// console.log(elemento.nombre);
-//     containerProducts.innerHTML += `
-//     <div class="producto">
-//     <img src="${elemento.imagen}" alt="Producto">
-//     <h3>${elemento.nombre}</h3>
-//     <p>${elemento.descripcion}</p>
-//     <p>${elemento.precio}</p>
-//     <a href="#">Ver mas</a>
-//     <button class= "btn" >Añadir al Carrito</button>
-// </div>
-//     `
-// })
 const containerProducts = document.querySelector("#containerProducts")
 
 
@@ -33,12 +16,12 @@ boton.textContent = "Añadir al Carrito"
 
 divProduct.innerHTML += `
 
-         <img src="${elemento.imagen}" alt="Producto">
-         <h3>${elemento.nombre}</h3>
-         <p>${elemento.descripcion}</p>
-         <p>${elemento.precio}</p>
-         <a href="#">Ver mas</a>
-         
+<img src="${elemento.imagen}" alt="Producto">
+<h3>${elemento.nombre}</h3>
+<p>${elemento.descripcion}</p>
+<p>${elemento.precio}</p>
+ <a href="#">Ver mas</a>
+
 
      `
      divProduct.append(boton)
@@ -62,10 +45,5 @@ function addCart(boton){
 
     })
 }
-// htmlCards(productosLibreria)
-// for (let index = 0; index < productosInformaticos.length; index++) {
-//     if(productosLibreria[i].destacado ==true )
-//     htmlCards()
-// }
 let productosDestacados = productosLibreria.filter((elemento) => elemento.destacado ===true)
 htmlCards(productosDestacados)
